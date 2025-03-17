@@ -7,8 +7,22 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Home Page'),
+      body: Column(
+        children: [
+          Center(
+            child: Text('home testes'),
+            
+          ), Center(
+            child: Text('home testes'),
+            
+          ), Center(
+            child: Text('home testes'),
+            
+          ), Center(
+            child: Text('home testes'),
+            
+          ),
+        ],
       ),
     );
   }
